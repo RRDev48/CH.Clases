@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <style>
+        
+        .contenedor{
+            height: auto;
+            font-size: 40px;
+            text-align: center;
+            color: #fff;
+            width: 800px;
+            display: grid;
+            border: 2px solid #000;
+            grid-template-areas: "header1 header1 header1"
+                                 "nav productos publicidad"
+                                 "nav servicios publicidad"
+                                 "footer footer footer";
+        }
+        
+        .header{
+            grid-area: "header1";
+            background-color: aqua;
+            height: 150px;
+            background-image: url(img/img10.jpg);
+        }
+        
+        .nav{
+            grid-area: "nav";
+            background-color: blue;
+            height: 150px;
+        }
+        .productos{
+            grid-area: "productos";
+            background-color: chartreuse;
+        }
+        .publicidad{
+            grid-area: "publicidad";
+            background-color: blueviolet;
+        }
+        .servicios{
+            grid-area: "servicios";
+            background-color: fuchsia;
+        }
+        .footer{
+            grid-area: "footer";
+            background-color: crimson;
+        }
+    
+    </style>
+</head>
+<body>
+  <div class="contenedor">
+       <div class="item1 header">1</div>
+       <div class="item2 header">2</div>
+       <div class="item3 header">3</div>
+       <div class="item4 nav">4</div>
+       <div class="item5 productos">5</div>
+       <div class="item6 publicidad">6</div>
+       <div class="item7 nav">7</div>
+       <div class="item8 servicios">8</div>
+       <div class="item9 publicidad">9</div>
+       <div class="item10 footer">10</div>
+       <div class="item11 footer">11</div>
+       <div class="item12 footer">12</div>
+    </div>
+</body>
+</html>

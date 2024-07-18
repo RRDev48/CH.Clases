@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+/*        ejercicio con alinecion, espacios utilizando items, content y self*/
+        .contenedor{
+            height: 1200px;
+/*            height: auto;*/
+            width: 900px;
+/*            width: auto;*/
+            display: grid;
+            border: 2px solid #000;
+/*            padding: 50px;*/
+            background-color: gainsboro;
+            
+/*            mostrar por filas y columnas*/
+            grid-template-columns: 200px 200px 200px;
+            grid-template-rows: 200px 200px 200px 200px;
+            
+            
+/*            alineacion por celdas de parte del contendor*/
+            
+/*            alineacion horizontal*/
+            justify-items: center;
+/*            justify-items: end; */
+/*            justify-items: start; */
+/*            justify-items: stretch; */
+/*            para que funcione debemos quitarle las dimensiones a los items*/
+            
+/*            alineacion vertical*/
+            align-items: center;
+/*            align-items: flex-end; */
+/*            align-items: flex-start; */
+/*            align-items: stretch; */
+            
+/*            para que funcione debemos quitarle las dimensiones a los items*/
+/*            mostrar el uso de los dos stretch*/
+            
+/*            para utilizar estas propiedades no debes usar align-items y justify-items*/
+            
+/*            alineacion de forma horizontal del conjunto de items*/
+            
+            justify-content: center;
+/*             justify-content: flex-end; */
+/*             justify-content: flex-start; */
+/*             justify-content: space-around; */
+/*             justify-content: space-between; */
+/*             justify-content: space-evenly; */
+/*            justify-content: end;*/
+
+/*            alineacion de forma vertical del conjunto de items*/            
+            align-content: center;
+/*             align-content: flex-end; */
+/*             align-content: flex-start; */
+/*             align-content: space-around; */
+/*             align-content: space-between; */
+/*             align-content: space-evenly; */
+            
+/*            mostrar por area*/
+/*
+            grid-template-areas: "header header header"
+                                 "nav productos publicidad"
+                                 "nav servicios publicidad"
+                                 "footer footer footer";
+*/
+            
+
+        }
+        
+        .item{
+
+            width: 150px;
+            height: 150px;
+
+            text-align: center;
+            font-size: 40px;
+            color: #fff;
+        }
+        
+        .header{
+/*            grid-area: "header";*/
+            background-color: aqua;
+        }
+        
+        .nav{
+/*            grid-area: "nav";*/
+            background-color: blue;
+        }
+        .productos{
+/*            grid-area: "productos";*/
+            background-color: chartreuse;
+        }
+        .publicidad{
+/*            grid-area: "publicidad";*/
+            background-color: blueviolet;
+        }
+        .servicios{
+/*            grid-area: "servicios";*/
+            background-color: fuchsia;
+        }
+        .footer{
+/*            grid-area: "footer";*/
+            background-color: crimson;
+        }
+        #i5{
+/*            alineacion de los mismos items desdelos items*/
+/*            alineacion de eje vertical*/
+             align-self: start; 
+             align-self: end; 
+            align-self: center;
+/*            align-self: stretch; */
+            
+/*            alineacion de eje horizontal*/
+            justify-self: center;
+             justify-self: end; 
+             justify-self: start; 
+             justify-self: stretch; 
+        }
+    
+        
+    </style>
+</head>
+<body>
+  <div class="contenedor">
+       <div class="item header">1</div>
+       <div class="item header">2</div>
+       <div class="item header">3</div>
+       <div class="item nav">4</div>
+       <div class="item productos" id="i5">5</div>
+       <div class="item publicidad">6</div>
+       <div class="item nav">7</div>
+       <div class="item servicios">8</div>
+       <div class="item publicidad">9</div>
+       <div class="item footer">10</div>
+       <div class="item footer">11</div>
+       <div class="item footer">12</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Oswald:wght@200&family=Raleway:wght@100;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    background-color: springgreen;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.menu{
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: #000;
+    color: springgreen;
+}
+
+main{
+    height: 400px;
+    width: 100%;
+    background-color: #333;
+    background-image: url(img/lion-3012515_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call{
+    color: #fff;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border: 5px solid springgreen;
+}
+
+h1{
+    color: springgreen;
+    margin-bottom: 20px;
+}
+
+.call a{
+    background-color: springgreen;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.call p{
+    margin-bottom: 30px;
+}
+
+.call a:hover{
+    background-color: #333;
+}
+.nosotros{
+    height: auto;
+    width: 100%;
+    background-color: #333;
+}
+
+.nleft{
+    height: 300px;
+    width: 100%;
+    background-image: url(img/elephant-1822636_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nright{
+    padding: 30px;
+    background-color: #fff;
+}
+
+.nright h3{
+    color: springgreen;
+    font-size: 25px;
+}
+.galeria{
+    /* height: 700px; */
+    width: 100%;
+    background-color: springgreen;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    padding: 20px;
+    grid-gap: 15px;
+}
+
+.item{
+    background-size: cover;
+    background-position: center;
+    border: 4px solid black;
+    transition: all 0.9s;
+    box-shadow: 0 0 5px #000;
+}
+
+
+.item:hover{
+    filter: grayscale(100);
+    transition: scale(0.09);
+}
+.item1{
+    background-image: url(img/couple-8161451_640.jpg);
+}
+
+.item2{
+    background-image: url(img/cat-8130334_640.jpg);
+}
+
+.item3{
+    background-image: url(img/elephant-1822636_1280.jpg);
+}
+
+.item4{
+    background-image: url(img/green-sea-turtle-8199770_640.jpg);
+}
+
+.item5{
+    background-image: url(img/lion-3012515_1280.jpg);
+}
+
+.item6{
+    background-image: url(img/lions-577104_1280.jpg);
+}
+
+.item7{
+    background-image: url(img/mountain-8187621_640.jpg);
+}
+
+.item8{
+    background-image: url(img/sunset-1807524_1280.jpg);
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+.footer p{
+    font-size: 30px;
+}
+
+.footer a{
+    color: springgreen;
+    text-decoration: none;
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+
+.footer a:hover{
+    color: coral;
+}
+
+.wsp{
+    height: 40px;
+    width: 40px;
+    background-color: springgreen;
+    color: #fff;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.wsp a{
+    color: #fff;
+}
+@media only screen and (min-width:480px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+
+    .nosotros{
+        display: flex;
+    }
+    .nleft{
+        width: 50%;
+    }
+
+    .nright{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 1024px){
+    .galeria{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .item1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .item2{
+        grid-column: 3/4;
+        grid-row: 1/3;
+    }
+
+    .item3{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .item4{
+        grid-column: 2/4;
+        grid-row: 2/3;
+    }
+
+    .item5{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+
+    .item6{
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
+    .item7{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .item8{
+        grid-column: 2/4;
+        grid-row: 4/5;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .galeria{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 200px);
+    }
+}

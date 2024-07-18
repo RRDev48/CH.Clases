@@ -1,0 +1,94 @@
+/*El ID tiene mas relevancia que el CLASS*/
+/*La etiqueta es el de mas baja jerarquia*/
+/*Todos los elementos tienen jerarquia entre sus pares*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* h1{
+   color: red; 
+} */
+
+/*Herencia*/
+/* div p{
+    color: green; 
+} */
+
+/*Por ID*/
+/* #purple{
+    color: purple;
+} */
+
+/* #purple1{
+    color: purple;
+} */
+
+/*NO RECOMENDADO*/
+/* #purple1, #purple{ 
+    color: purple;
+} */
+
+/*Por CLASS*/
+/* .purple{
+    color: purple;
+    background-color: yellow;
+}
+
+#size{
+    font-size: 40px;
+} */
+
+/* div{
+    color: crimson;
+    background-color: aquamarine;
+    text-decoration: underline;
+} */
+
+/* a{
+    color: blue;
+    text-decoration: none;
+} */
+
+p{
+    color: brown;
+}
+
+/*Important se salta las anteriores*/
+/*Si los dos tienen Importat se ejecuta por jerarquia*/
+/*NO ES RECOMENDABLE*/
+.p{
+    color: green !important;
+    background-color: pink !important;
+}
+
+#p{
+    color: yellow;
+    background-color: blueviolet;/*En ingles*/
+    background-color: #ff0000; /*Exa*/
+    background-color: rgb(255, 0, 0); /*RGB*/
+    background-color: rgba(255, 0, 0, 0.7); /*RGBA, transparencia*/
+
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 100; /*Negrita en letra*/
+    font-style:normal ;/**/
+    font-variant: small-caps;/*Maysculas pequenias*/
+    text-transform: uppercase;/*todo en mayusculas y mas grandes*/
+
+    text-align: center; /*Centra el texto*/
+    text-decoration: line-through;/*Subrallado, puedo tener muchos valores y colores*/
+}
+
+div{
+    height: 900px;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(img/Imagen.jpg);
+    background-size:cover;/*Reescala al igual que el contain*/
+    background-size: 250xp auto;/**/
+    background-repeat: no-repeat;/*Hace que no se repita la imagen*/
+    background-position: center center;/*lo centra*/
+    background-attachment: fixed;
+}

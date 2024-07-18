@@ -1,0 +1,8 @@
+Diferencias entre append() y appendChild():
+
+* Element.append() permite añadir también objetos de tipo cadena, mientras que Node.appendChild() sólo acepta objetos de tipo Node.
+* Element.append() no tiene valor de retorno, mientras que Node.appendChild() devuelve el objeto Node añadido.
+* Element.append() puede añadir varios nodos y cadenas de texto, mientras que Node.appendChild() sólo puede añadir un nodo.
+
+Fuente: https://developer.mozilla.org/es/docs/Web/API/Element/append
+

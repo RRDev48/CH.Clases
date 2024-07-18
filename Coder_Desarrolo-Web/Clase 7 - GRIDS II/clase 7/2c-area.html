@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grids-areas</title>
+
+    <style>
+        #grilla {
+            display: grid;
+            grid-template-areas:
+                "nav1 header header"
+                "nav1 productos publicidad"
+                "nav1 productos footer1"
+                "servicios servicios footer1";
+            grid-template-rows: 100px 120px 120px 75px;
+            grid-template-columns: 1fr 1fr 1fr ;
+/*            grid-gap: 20px*/
+        }
+
+        .border {
+            border: 1px solid black;
+        }
+
+
+        header {
+            grid-area: header;
+            background-color: aqua;
+            background-image: url(img/img_wide1.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        footer {
+            grid-area: footer1;
+            background-color: aquamarine;
+            background-image: url(img/img_wide2.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        section#productos {
+            grid-area: productos;
+            background-color: blueviolet;
+        }
+
+        section#servicios {
+            grid-area: servicios;
+            background-color: chartreuse;
+        }
+
+        nav {
+            grid-area: nav1;
+            background-color: coral;
+/*            background-image: url(img/img7.jpg);*/
+            background-size: cover;
+            background-position: center;
+        }
+
+        aside {
+            grid-area: publicidad;
+            background-color: crimson;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="grilla">
+        <header class="border">Header</header>
+        <section id="productos" class="border">Section - productos</section>
+        <section id="servicios" class="border">Section - servicios</section>
+        <nav class="border">Navegacion</nav>
+        <aside class="border">aside - publicidad</aside>
+        <footer class="border">Pie de pagina</footer>
+    </div>
+
+</body>
+
+</html>

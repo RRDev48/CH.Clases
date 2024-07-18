@@ -1,0 +1,326 @@
+[
+  {
+    "numeroDocumento": "45234572",
+    "apellidos": "Johnson",
+    "nombres": "Dwayne",
+    "obraSocial": {
+      "id": 1,
+      "nombre": "OSDE"
+    },
+    "numeroAfiliado": "45234572/00",
+    "correoElectronico": "johnson.dwayne@gmail.com",
+    "fechaNacimiento": "1973-04-09T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "24987657",
+    "apellidos": "Hamilton",
+    "nombres": "Cuando",
+    "obraSocial": {
+      "id": 4,
+      "nombre": "SmaUNaM"
+    },
+    "numeroAfiliado": "24987657/00",
+    "correoElectronico": "hamilton.cuando@gmail.com",
+    "fechaNacimiento": "1980-11-25T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "36576345",
+    "apellidos": "Oldman",
+    "nombres": "Gary",
+    "obraSocial": null,
+    "numeroAfiliado": "",
+    "correoElectronico": "oldman.gary@gmail.com",
+    "fechaNacimiento": "1951-09-13T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "45678988",
+    "apellidos": "Theron",
+    "nombres": "Charlize",
+    "obraSocial": {
+      "id": 2,
+      "nombre": "Sancor Salud"
+    },
+    "numeroAfiliado": "45678988/00",
+    "correoElectronico": "theron.charlize@gmail.com",
+    "fechaNacimiento": "1974-03-15T02:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "34445675",
+    "apellidos": "Caine",
+    "nombres": "Michael",
+    "obraSocial": {
+      "id": 2,
+      "nombre": "Sancor Salud"
+    },
+    "numeroAfiliado": "34445675/00",
+    "correoElectronico": "caine.michael@gmail.com",
+    "fechaNacimiento": "1973-08-10T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "22334127",
+    "apellidos": "Yeoh",
+    "nombres": "Michelle",
+    "obraSocial": {
+      "id": 2,
+      "nombre": "Sancor Salud"
+    },
+    "numeroAfiliado": "22334127/00",
+    "correoElectronico": "yeoh.michelle@gmail.com",
+    "fechaNacimiento": "1970-01-29T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "55776922",
+    "apellidos": "Diesel",
+    "nombres": "Vin",
+    "obraSocial": {
+      "id": 4,
+      "nombre": "SmaUNaM"
+    },
+    "numeroAfiliado": "55776922/00",
+    "correoElectronico": "diesel.vin@gmail.com",
+    "fechaNacimiento": "1964-07-01T04:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "33454117",
+    "apellidos": "Jolie",
+    "nombres": "Angelina",
+    "obraSocial": null,
+    "numeroAfiliado": "",
+    "correoElectronico": "jolie.angelina@gmail.com",
+    "fechaNacimiento": "1991-09-15T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "43565231",
+    "apellidos": "Cheadle",
+    "nombres": "Donheadle",
+    "obraSocial": {
+      "id": 4,
+      "nombre": "SmaUNaM"
+    },
+    "numeroAfiliado": "43565231/00",
+    "correoElectronico": "cheadle.donheadle@gmail.com",
+    "fechaNacimiento": "1966-02-26T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "16867345",
+    "apellidos": "Thurman",
+    "nombres": "Uma",
+    "obraSocial": {
+      "id": 2,
+      "nombre": "Sancor Salud"
+    },
+    "numeroAfiliado": "16867345/00",
+    "correoElectronico": "thurman.uma@gmail.com",
+    "fechaNacimiento": "1979-07-24T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "43856334",
+    "apellidos": "Cooper",
+    "nombres": "Bradley",
+    "obraSocial": {
+      "id": 3,
+      "nombre": "Swiss médical"
+    },
+    "numeroAfiliado": "43856334/00",
+    "correoElectronico": "cooper.bradley@gmail.com",
+    "fechaNacimiento": "1954-05-02T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "86564223",
+    "apellidos": "Gadot",
+    "nombres": "Gal",
+    "obraSocial": {
+      "id": 1,
+      "nombre": "OSDE"
+    },
+    "numeroAfiliado": "86564223/00",
+    "correoElectronico": "gadot.gal@gmail.com",
+    "fechaNacimiento": "1952-09-25T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "11866955",
+    "apellidos": "McKellen",
+    "nombres": "Ian",
+    "obraSocial": {
+      "id": 4,
+      "nombre": "SmaUNaM"
+    },
+    "numeroAfiliado": "11866955/00",
+    "correoElectronico": "mcKellen.ian@gmail.com",
+    "fechaNacimiento": "1998-07-10T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "56768993",
+    "apellidos": "Saldana",
+    "nombres": "Zoe",
+    "obraSocial": {
+      "id": 1,
+      "nombre": "OSDE"
+    },
+    "numeroAfiliado": "56768993/00",
+    "correoElectronico": "saldana.zoe@gmail.com",
+    "fechaNacimiento": "1967-08-23T04:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "45619968",
+    "apellidos": "Depp",
+    "nombres": "Johnny",
+    "obraSocial": null,
+    "numeroAfiliado": "",
+    "correoElectronico": "depp.johnny@gmail.com",
+    "fechaNacimiento": "1960-11-08T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "32779113",
+    "apellidos": "Jovovich",
+    "nombres": "Milla",
+    "obraSocial": {
+      "id": 2,
+      "nombre": "Sancor Salud"
+    },
+    "numeroAfiliado": "32779113/00",
+    "correoElectronico": "jovovich.milla@gmail.com",
+    "fechaNacimiento": "1960-11-30T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "27556334",
+    "apellidos": "Elba",
+    "nombres": "Isabela",
+    "obraSocial": {
+      "id": 3,
+      "nombre": "Swiss médical"
+    },
+    "numeroAfiliado": "27556334/00",
+    "correoElectronico": "elba.isabela@gmail.com",
+    "fechaNacimiento": "1985-02-28T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "18465786",
+    "apellidos": "Nielsen",
+    "nombres": "Brigitte",
+    "obraSocial": null,
+    "numeroAfiliado": "",
+    "correoElectronico": "mielsen.brigitte@gmail.com",
+    "fechaNacimiento": "1964-03-18T04:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "24765967",
+    "apellidos": "Tucci",
+    "nombres": "Stanley",
+    "obraSocial": {
+      "id": 1,
+      "nombre": "OSDE"
+    },
+    "numeroAfiliado": "24765967/00",
+    "correoElectronico": "tucci.stanley@gmail.com",
+    "fechaNacimiento": "1953-12-10T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "20454665",
+    "apellidos": "Blunt",
+    "nombres": "Emily",
+    "obraSocial": {
+      "id": 3,
+      "nombre": "Swiss médical"
+    },
+    "numeroAfiliado": "20454665/00",
+    "correoElectronico": "blunt.emily@gmail.com",
+    "fechaNacimiento": "1971-11-21T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "14464998",
+    "apellidos": "Murphy",
+    "nombres": "Eddie",
+    "obraSocial": {
+      "id": 1,
+      "nombre": "OSDE"
+    },
+    "numeroAfiliado": "14464998/00",
+    "correoElectronico": "murphy.eddie@gmail.com",
+    "fechaNacimiento": "1976-05-05T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "31544769",
+    "apellidos": "Lawrence",
+    "nombres": "Jennifer",
+    "obraSocial": {
+      "id": 4,
+      "nombre": "SmaUNaM"
+    },
+    "numeroAfiliado": "31544769/00",
+    "correoElectronico": "lawrence.jennifer@gmail.com",
+    "fechaNacimiento": "1978-09-11T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "11668118",
+    "apellidos": "Cruise",
+    "nombres": "Tom",
+    "obraSocial": {
+      "id": 1,
+      "nombre": "OSDE"
+    },
+    "numeroAfiliado": "11668118/00",
+    "correoElectronico": "cruise.tom@gmail.com",
+    "fechaNacimiento": "1999-06-15T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "33665816",
+    "apellidos": "Weaver",
+    "nombres": "Sigourney",
+    "obraSocial": {
+      "id": 2,
+      "nombre": "Sancor Salud"
+    },
+    "numeroAfiliado": "33665816/00",
+    "correoElectronico": "weaver.sigourney@gmail.com",
+    "fechaNacimiento": "1997-12-28T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "18972519",
+    "apellidos": "Daniels",
+    "nombres": "Anthony",
+    "obraSocial": {
+      "id": 3,
+      "nombre": "Swiss médical"
+    },
+    "numeroAfiliado": "18972519/00",
+    "correoElectronico": "daniels.anthony@gmail.com",
+    "fechaNacimiento": "1997-06-28T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "20693774",
+    "apellidos": "Rodriguez",
+    "nombres": "Michelle",
+    "obraSocial": {
+      "id": 1,
+      "nombre": "OSDE"
+    },
+    "numeroAfiliado": "20693774/00",
+    "correoElectronico": "rodriguez.michelle@gmail.com",
+    "fechaNacimiento": "1997-03-03T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "19220544",
+    "apellidos": "Serkis",
+    "nombres": "Andy",
+    "obraSocial": {
+      "id": 3,
+      "nombre": "Swiss médical"
+    },
+    "numeroAfiliado": "19220544/00",
+    "correoElectronico": "serkis.andy@gmail.com",
+    "fechaNacimiento": "1972-10-20T03:00:00.000Z"
+  },
+  {
+    "numeroDocumento": "30990113",
+    "apellidos": "Johansson",
+    "nombres": "Scarlett",
+    "obraSocial": {
+      "id": 2,
+      "nombre": "Sancor Salud"
+    },
+    "numeroAfiliado": "30990113/00",
+    "correoElectronico": "johansson.scarlett@gmail.com",
+    "fechaNacimiento": "1969-10-22T03:00:00.000Z"
+  }
+]

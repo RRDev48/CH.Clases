@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>galeria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--    con esta etiqueta vamos a decirle que el ancho se adapte a cualquier tipo de dispositivo movil   -->
+<!--    con meta:vp + tab podes crear esta etiqueta con sus propiedades y valores valores-->
+    <style>
+       
+        .fondo{
+            height: 400px;
+            background-color: aqua;
+        }
+/*        mobile first es el metodo que se emplea a la hora de elegir desdee que dispositivo elegimos maquetar en este csao seria primero celu hasta llegar a la pantalla de escritorio*/
+        
+/*        las medidas estandares de dispositivos son 320px 480px 600px 768px 1024px 1200px*/   
+    
+
+        
+        @media only screen and (max-width: 350px) {
+            .fondo{
+                color: yellow;
+                background-color: orangered;
+                font-size: 60px;
+            }
+            
+        }
+        
+        @media only screen and (min-width: 360px) and (max-width:479px) {
+    .fondo {
+            background-color: #000000;
+            color: red;
+            font-size: 100px;
+            
+      }
+            
+}
+        @media only screen and (min-width: 480px) {
+    .fondo {
+            background-color: #6cf03c;
+      }
+}
+        
+        @media only screen and (min-width: 600px) {
+    .fondo {
+            background-color: #f9ae24;
+            color: aqua;
+            font-size: 40px;
+      }
+}
+        @media only screen and (min-width: 768px) {
+    .fondo {
+            background-color: #ba3cf0;
+      }
+}
+        @media only screen and (min-width: 1024px) {
+    .fondo {
+            background-color: #3cf0cf;
+      }
+}
+        @media only screen and (min-width: 1200px) {
+    .fondo {
+            background-color: #d70d0d;
+            font-size: 70px;
+        text-decoration: underline;
+      }
+}
+        
+    </style>
+</head>
+<body>
+   
+    <div class="fondo">mi sitio</div>
+    
+</body>
+</html>

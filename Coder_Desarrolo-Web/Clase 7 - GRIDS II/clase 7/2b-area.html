@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <style>
+        
+        .contenedor{
+            height: auto;
+            font-size: 40px;
+            text-align: center;
+            color: #fff;
+            width: 800px;
+            display: grid;
+            border: 2px solid #000;
+            grid-template-areas: "img1 img2 img3 img3"
+                                 "img1 img4 img5 img6"    
+                                 "img7 img4 img8 img8";
+        }
+        
+        
+        .img1{
+            grid-area: "img";
+            background-color: aqua;
+            height: 150px;
+        }
+        
+        .img2{
+            grid-area: "img2";
+            background-color: blue;
+            height: 150px;
+        }
+        .img3{
+            grid-area: "img3";
+            background-color: chartreuse;
+        }
+        .img4{
+            grid-area: "img4";
+            background-color: blueviolet;
+        }
+        .img5{
+            grid-area: "img5";
+            background-color: fuchsia;
+        }
+        .img6{
+            grid-area: "img6";
+            background-color: crimson;
+        }
+    
+        .img7{
+            grid-area: "img7";
+            background-color: teal; 
+        }
+
+        .img8{
+            grid-area: "img8";
+            background-color: orange;
+        }
+
+    </style>
+</head>
+<body>
+  <div class="contenedor">
+       <div class="item1 header img1">1</div>
+       <div class="item2 header img2">2</div>
+       <div class="item3 header img3">3</div>
+       <div class="item3 header img3">4</div>
+       <div class="item4 nav img1">5</div>
+       <div class="item5 productos img4">6</div>
+       <div class="item6 publicidad img5">7</div>
+       <div class="item7 nav img6" >8</div>
+       <div class="item8 servicios img7">9</div>
+       <div class="item9 publicidad img4">10</div>
+       <div class="item10 footer img8">11</div>
+       <div class="item11 footer img8">12</div>
+    </div>
+</body>
+</html>

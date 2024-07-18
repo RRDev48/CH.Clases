@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    width: 100%;
+    height: 100vh;
+    background-color: purple;
+    background-image: linear-gradient(blue , rgb( 238, 130, 238, 0.7)),url(img/Imagen.jpg);
+    padding: 30px;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline gray;
+}
+
+form input::placeholder{
+    color: white;
+}
+
+form input{
+    width: 100%;
+    font-size: 25px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 4px solid gray;
+}
+
+form textarea{
+    width: 100%;
+    font-size: 25px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 4px solid gray;
+}
+
+form textarea::placeholder{
+    color: white;
+}
+
+form #Enviar{
+    background-color: gray;
+    font-size: 25px;
+    border: 4px solid black;
+    padding: 10px;
+}

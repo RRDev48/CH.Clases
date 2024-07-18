@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .galeria{
+            width: 100%;
+            background-color: gray;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 25px;
+            
+        }
+        .galeria h1{
+            font-size: 50px;
+            text-align: center;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            color: #fff;
+        }
+        .contenedor{
+            width: 90%;
+            height: auto;
+            background-color: #0a2a79;
+            display: grid;
+
+/*
+            grid-template-areas: "item1 item2 item3 item3"
+                                 "item1 item4 item5 item6"
+                                 "item7 item4 item8 item8";
+*/
+
+/*            grid-template-columns: 1fr 1fr 1fr 1fr;*/
+/*            grid-template-rows: 1fr 1fr 1fr;*/
+            
+        }
+        
+        .item{
+            min-height: 200px;
+            min-width: 200px;
+            background-color: aqua;
+            border: 2px solid #fff;
+        }
+        .item:hover{
+            transform: scale(1.2);
+            transition: 0.7s;
+            filter: sepia(1);
+        }
+        
+        .item1{
+/*            grid-area: "item1";*/
+            background-color: coral;
+/*
+            grid-column: 1;
+            grid-row: 2;
+            
+            grid-row-start: 1;
+            grid-row-end: 3;
+            
+            grid-column-start: 1;
+            grid-column-end: 2;
+*/
+            grid-row: 1/3;
+            grid-column: 1/2;
+            
+            background-image: url(img/img5.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .item2{
+            grid-area: "item2";
+            background-color: cadetblue;
+            background-image: url(img/img10.jpg);
+            background-size: cover;
+        }
+        .item3{
+            grid-area: "item3";
+            background-color: fuchsia;
+/*
+            grid-column: 2;
+            grid-column-start: 3;
+            grid-column-end: 5;
+*/
+            
+            grid-column: 3/5;
+            background-image: url(img/img_wide1.jpg);
+            background-size: cover;
+        }
+        .item4{
+            grid-area: "item4";
+            background-color: forestgreen;
+/*
+            grid-row-start: 2;
+            grid-row-end: 4;
+*/
+            grid-row: 2/4;
+            background-image: url(img/img_vertical2.jpg);
+            background-size: cover;
+        }
+        .item5{
+            grid-area: "item5";
+            background-color: firebrick;
+            background-image: url(img/img3.jpeg);
+            background-size: cover;
+        }
+        .item6{
+            grid-area: "item6";
+            background-color: dodgerblue;
+            background-image: url(img/img6.jpeg);
+            background-size: cover;
+        }
+        .item7{
+            grid-area: "item7";
+            background-color: deeppink;
+            background-image: url(img/img9.jpg);
+            background-size: cover;
+        }
+        .item8{
+            grid-area: "item8";
+            background-color: darkviolet;
+/*
+            grid-column: 2;
+            grid-column-start: 3;
+            grid-column-end: 5;
+*/
+            grid-column: 3/5;
+            background-image: url(img/img_wide2.jpg);
+            background-size: cover;
+        }
+        
+        
+    </style>
+    
+</head>
+<body>
+    <div class="galeria">
+        <h1>galeria de imagenes</h1>
+        <div class="contenedor">
+             <div class="item item1">1</div>
+             <div class="item item2">2</div>
+             <div class="item item3">3</div>
+             <div class="item item4">4</div>
+             <div class="item item5">5</div>
+             <div class="item item6">6</div>
+             <div class="item item7">7</div>
+             <div class="item item8">8</div>
+        <!--
+             <div class="item item9">9</div>
+             <div class="item item10">10</div>
+             <div class="item item11">11</div>
+             <div class="item item12">12</div>
+        -->
+        </div>
+    </div>
+</body>
+</html>

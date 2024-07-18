@@ -1,0 +1,51 @@
+let profesionales = [
+  {
+    matriculaProfesional: 100,
+    apellidos: "Parker",
+    nombres: "Peter",
+    tratamiento: "Dr.",
+    especialidad: { id: 1, nombre: "Pediatría" },
+  },
+  {
+    matriculaProfesional: 200,
+    apellidos: "Banner",
+    nombres: "Bruce",
+    tratamiento: "Dr.",
+    especialidad: { id: 2, nombre: "Oftalmología" },
+  },
+  {
+    matriculaProfesional: 300,
+    apellidos: "Stark",
+    nombres: "Tony",
+    tratamiento: "Dr.",
+    especialidad: { id: 3, nombre: "Dermatología" },
+  },
+  {
+    matriculaProfesional: 400,
+    apellidos: "Odinson",
+    nombres: "Thor",
+    tratamiento: "Dr.",
+    especialidad: { id: 4, nombre: "Medicina clínica" },
+  },
+  {
+    matriculaProfesional: 500,
+    apellidos: "Lee",
+    nombres: "Stan",
+    tratamiento: "Dr.",
+    especialidad: { id: 5, nombre: "Cardiología" },
+  },
+  {
+    matriculaProfesional: 600,
+    apellidos: "Murdock",
+    nombres: "Matt",
+    tratamiento: "Dr.",
+    especialidad: { id: 1, nombre: "Pediatría" },
+  },
+  {
+    matriculaProfesional: 700,
+    apellidos: "Strange",
+    nombres: "Stephen",
+    tratamiento: "Dr.",
+    especialidad: { id: 2, nombre: "Oftalmología" },
+  },
+];

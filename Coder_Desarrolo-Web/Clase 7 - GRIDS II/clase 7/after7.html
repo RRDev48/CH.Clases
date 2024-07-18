@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: aqua;
+            background-image: radial-gradient(blue ,red, yellow);
+            display: grid;
+            place-items: center;
+            padding: 50px;
+        }
+        
+        h1{
+            text-align: center;
+        }
+        
+        section{
+            background-color: gray;
+            width: 80%;
+            height: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            padding: 20px;
+            box-shadow: 0 0 10px #333;
+        }
+        .item{
+            background-color: yellow;
+            font-size: 30px;
+            color: black;
+            border: 2px solid #777;
+            min-height: 200px;
+            min-width: 200px;
+        }
+        #item1{
+            grid-row-start: 1;
+            grid-row-end: 3;
+            background-image: url(img/img11.jpg);
+            background-size: cover;
+            background-position: center;
+            
+        }
+        .item:hover{
+            transform: scale(1.2);
+            transition: all 0.75s;
+            filter: grayscale(1);
+        }
+        
+        #item3{
+            grid-column-start: 3;
+            grid-column-end: 5;
+            
+        }
+        #item4{
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        #item5{
+            background-image: url(img/img9.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        #item8{
+            grid-column: 3/5;
+            background-image: url(img/img9.jpg);
+            background-size: cover;
+            background-position: center;
+            
+        }
+        
+        @media only screen and (max-width: 1250px){
+            body{
+                background-image:linear-gradient(blue, skyblue, blue) ;
+            }
+            
+        }
+        
+        @media only screen and (max-width: 600px){
+            section{
+                background-image:linear-gradient(violet, skyblue, violet) ;
+            }
+            
+        }
+    
+        
+    </style>    
+    
+</head>
+<body>
+   <h1>mi galeria</h1>
+   <section>
+       <div class="item item1" id="item1">caja1</div>
+       <div class="item item2" id="item2">caja2</div>
+       <div class="item item3" id="item3">caja3</div>
+       <div class="item item4" id="item4">caja4</div>
+       <div class="item item5" id="item5">caja5</div>
+       <div class="item item6" id="item6">caja6</div>
+       <div class="item item7" id="item7">caja7</div>
+       <div class="item item8" id="item8">caja8</div>
+   </section>
+    
+</body>
+</html>

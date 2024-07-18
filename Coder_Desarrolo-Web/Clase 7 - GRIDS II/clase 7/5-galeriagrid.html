@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .galeria{
+            width: 100%;
+            background-color: gray;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+        }
+        .galeria h1{
+            font-size: 50px;
+            text-align: center;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            color: #fff;
+        }
+        .contenedor{
+            width: 90%;
+            height: auto;
+            background-color: #0a2a79;
+            padding: 30px;
+            display: grid;
+            grid-template-areas: "item1 item2 item3 item3"
+                                 "item1 item4 item5 item6"
+                                 "item7 item4 item8 item8";
+            
+        }
+        
+        .item{
+            min-height: 200px;
+            min-width: 200px;
+            background-color: aqua;
+            border: 2px solid #fff;
+        }
+        
+        #item1{
+            background-color: coral;
+        }
+        #item2{
+            background-color: cadetblue;
+            background-image: url(img/img9.jpg);
+            background-size: cover;
+        }
+        #item3{
+            background-color: fuchsia;
+        }
+        #item4{
+            background-color: forestgreen;
+            background-image: url(img/img3.jpeg);
+            background-size: cover;
+        }
+        #item5{
+            background-color: firebrick;
+            background-image: url(img/img6.jpeg);
+            background-size: cover;
+        }
+        #item6{
+            background-color: dodgerblue;
+        }
+        #item7{
+            background-color: deeppink;
+            background-image: url(img/img11.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        #item8{
+            background-color: darkviolet;
+        }
+        #item9{
+            background-color: gold;
+        }
+        #item10{
+            background-color: darkorange;
+            background-image: url(img/img4.jpg);
+            background-size: cover;
+        }
+        #item11{
+            background-color: chartreuse;
+        }
+        #item12{
+            background-color: dodgerblue;
+            background-image: url(img/img10.jpg);
+            background-size: cover;
+        }
+        
+        
+        
+        
+    </style>
+    
+</head>
+<body>
+    <div class="galeria">
+    <h1>galeria de imagenes</h1>
+        <div class="contenedor">
+            <div class="item item1" id="item1">1</div>
+            <div class="item item2" id="item2">2</div>
+            <div class="item item3" id="item3">3</div>
+            <div class="item item3" id="item4">4</div>
+            <div class="item item1" id="item5">5</div>
+            <div class="item item4" id="item6">6</div>
+            <div class="item item5" id="item7">7</div>
+            <div class="item item6" id="item8">8</div>
+            <div class="item item7" id="item9">9</div>
+            <div class="item item4" id="item10">10</div>
+            <div class="item item8" id="item11">11</div>
+            <div class="item item8" id="item12">12</div>
+        </div>
+    </div>
+</body>
+</html>

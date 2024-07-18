@@ -1,0 +1,420 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Island+Moments&family=Moon+Dance&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Delicious+Handrawn&family=Farsan&family=Lato&family=Open+Sans:wght@300&family=Oswald:wght@300&family=Poppins:wght@300&family=Roboto:wght@100;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+h2 {
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: orange;
+  text-shadow: 5px 5px 10px #333;
+  font-family: "Moon Dance", cursive;
+}
+
+.box__uno {
+  background-color: violet;
+  width: 50%;
+  /* Ancho de 50%*/
+  height: 200px;
+  /* altura 400px*/
+}
+
+.box__dos {
+  background-color: #0f9243;
+  height: 110px;
+  width: 150px;
+  /*650px*/
+}
+
+.titulo {
+  font-size: 35px;
+  color: red;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+
+p {
+  height: 100px;
+  width: 720px;
+  background-color: darkred;
+  font-size: 60px;
+  text-align: center;
+}
+
+/* Mi constante */
+p {
+  color: coral;
+  background-color: #333;
+  border: 12px solid turquoise;
+}
+
+.cont1 {
+  height: 400px;
+  width: 700px;
+}
+
+/* Mi constante */
+.cont1 {
+  border: 15px solid coral;
+  background-color: #333;
+}
+
+.para {
+  height: 200px;
+  background-color: yellow;
+  border: 2px solid #333;
+}
+
+.todos-1 {
+  width: 100px;
+  background-color: #0f9243;
+  font-size: 20px;
+  border-width: 5px;
+  box-shadow: 0 0 5px #ff0 inset;
+}
+
+.todos-2 {
+  width: 200px;
+  background-color: #0f9243;
+  font-size: 40px;
+  border-width: 10px;
+  box-shadow: 0 0 10px #ff0 inset;
+}
+
+.todos-3 {
+  width: 300px;
+  background-color: #0f9243;
+  font-size: 60px;
+  border-width: 15px;
+  box-shadow: 0 0 15px #ff0 inset;
+}
+
+.todos-4 {
+  width: 400px;
+  background-color: #0f9243;
+  font-size: 80px;
+  border-width: 20px;
+  box-shadow: 0 0 20px #ff0 inset;
+}
+
+.bucle-1 {
+  width: 400px;
+  height: 200px;
+  background-color: purple;
+  border: 2px solid #333;
+  text-align: center;
+  font-size: 50px;
+}
+
+.bucle-2 {
+  width: 400px;
+  height: 200px;
+  background-color: purple;
+  border: 2px solid #333;
+  text-align: center;
+  font-size: 50px;
+}
+
+.bucle-3 {
+  width: 400px;
+  height: 200px;
+  background-color: purple;
+  border: 2px solid #333;
+  text-align: center;
+  font-size: 50px;
+}
+
+.bucle-4 {
+  width: 400px;
+  height: 200px;
+  background-color: purple;
+  border: 2px solid #333;
+  text-align: center;
+  font-size: 50px;
+}
+
+.bucle-5 {
+  width: 400px;
+  height: 200px;
+  background-color: purple;
+  border: 2px solid #333;
+  text-align: center;
+  font-size: 50px;
+}
+
+.bucle-2 {
+  background-color: #99ffff;
+  background-color: #00cccc;
+}
+
+.bucle-3 {
+  background-color: #ccffff;
+  background-color: #009999;
+}
+
+.bucle-4 {
+  background-color: white;
+  background-color: #006666;
+}
+
+.puma-icon,
+.egret-icon,
+.sea-slug-icon {
+  height: 250px;
+  width: 400px;
+  border: 2px solid #333;
+}
+
+.puma-icon {
+  background-image: url("img/puma.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.sea-slug-icon {
+  background-image: url("img/sea-slug.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.egret-icon {
+  background-image: url("img/egret.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.puma-icon:hover {
+  filter: grayscale(0%);
+}
+
+.sea-slug-icon:hover {
+  filter: grayscale(0%);
+}
+
+.egret-icon:hover {
+  filter: grayscale(0%);
+}
+
+/*animal tendrá los valores de cada uno */
+.cont-blue,
+.cont-yellow,
+.cont-red {
+  height: 150px;
+  width: 300px;
+  background-color: #333;
+  border: 10px solid #0f9243;
+}
+
+.cont-blue {
+  border-color: blue;
+  text-align: center;
+  color: blue;
+  font-size: 60px;
+  line-height: 150px;
+}
+
+.cont-yellow {
+  border-color: yellow;
+  text-align: center;
+  color: yellow;
+  font-size: 60px;
+  line-height: 150px;
+}
+
+.cont-red {
+  border-color: red;
+  text-align: center;
+  color: red;
+  font-size: 60px;
+  line-height: 150px;
+}
+
+.color-red {
+  border-color: red;
+  color: red;
+  background-color: red;
+  font-size: 60px;
+  text-shadow: 5px 5px 5px #fff;
+  border: 2px solid;
+  height: 200px;
+  width: 600px;
+}
+
+.color-blue {
+  border-color: blue;
+  color: blue;
+  background-color: blue;
+  font-size: 60px;
+  text-shadow: 5px 5px 5px #fff;
+  border: 2px solid;
+  height: 200px;
+  width: 600px;
+}
+
+.color-black {
+  border-color: black;
+  color: black;
+  background-color: black;
+  font-size: 60px;
+  text-shadow: 5px 5px 5px #fff;
+  border: 2px solid;
+  height: 200px;
+  width: 600px;
+}
+
+.color-orange {
+  border-color: orange;
+  color: orange;
+  background-color: orange;
+  font-size: 60px;
+  text-shadow: 5px 5px 5px #fff;
+  border: 2px solid;
+  height: 200px;
+  width: 600px;
+}
+
+.color-violet {
+  border-color: violet;
+  color: violet;
+  background-color: violet;
+  font-size: 60px;
+  text-shadow: 5px 5px 5px #fff;
+  border: 2px solid;
+  height: 200px;
+  width: 600px;
+}
+
+.color-green {
+  border-color: green;
+  color: green;
+  background-color: green;
+  font-size: 60px;
+  text-shadow: 5px 5px 5px #fff;
+  border: 2px solid;
+  height: 200px;
+  width: 600px;
+}
+
+/*Creamos el bucle para usar los valores del mapa*/
+.btn--10px {
+  background-color: #333;
+  height: 200px;
+  width: 500px;
+  border: 10px solid coral;
+  text-align: center;
+  font-size: 10px;
+  line-height: 200px;
+  color: coral;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px white;
+  font-family: cursive;
+  border-radius: 10px;
+}
+
+.btn--20px {
+  background-color: #333;
+  height: 200px;
+  width: 500px;
+  border: 10px solid green;
+  text-align: center;
+  font-size: 20px;
+  line-height: 200px;
+  color: green;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px white;
+  font-family: cursive;
+  border-radius: 20px;
+}
+
+.btn--30px {
+  background-color: #333;
+  height: 200px;
+  width: 500px;
+  border: 10px solid violet;
+  text-align: center;
+  font-size: 30px;
+  line-height: 200px;
+  color: violet;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px white;
+  font-family: cursive;
+  border-radius: 30px;
+}
+
+.btn--40px {
+  background-color: #333;
+  height: 200px;
+  width: 500px;
+  border: 10px solid red;
+  text-align: center;
+  font-size: 40px;
+  line-height: 200px;
+  color: red;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px white;
+  font-family: cursive;
+  border-radius: 40px;
+}
+
+.btn--50px {
+  background-color: #333;
+  height: 200px;
+  width: 500px;
+  border: 10px solid orange;
+  text-align: center;
+  font-size: 50px;
+  line-height: 200px;
+  color: orange;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px white;
+  font-family: cursive;
+  border-radius: 50px;
+}
+
+.redsocial, .redsocial--nueva span, .redsocial--nueva {
+  border: 3px solid #f00;
+  background-color: purple;
+  height: 300px;
+  width: 600px;
+  padding: 20px;
+}
+
+.redsocial--nueva {
+  border-width: 3px;
+  color: #fff;
+  font-size: 60px;
+}
+.box {
+  background-color: #0f9243;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+}
+
+.box {
+  height: 300px;
+  width: 400px;
+  background-color: blue;
+  color: pink;
+}
+
+.box2 {
+  height: 300px;
+  width: 200px;
+  background-color: red;
+  color: orange;
+  text-align: right;
+  font-size: 60px;
+}
+
+.whi {
+  height: 200px;
+  background-color: palegreen;
+  width: 500px;
+  border: 2px solid #ccc;
+}
+
+/*# sourceMappingURL=estilos.css.map */

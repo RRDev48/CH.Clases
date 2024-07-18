@@ -1,0 +1,83 @@
+.navbar{
+    background-color: green !important;
+}
+
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link{
+    color: yellow !important;
+}
+
+.nav-item :hover{
+    background-color: darkgreen;
+    border-radius: 5px;
+}
+
+.jumbotron{
+    background-color: #333;
+    background-image: url(img/elephant-1822636_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    /* color: #ff0 !important; */
+}
+
+h1{
+    color: yellow;
+}
+
+.jumbotron p{
+    color: #fff;
+    /* text-shadow: 2px 2px 5px #fff; */
+}
+
+.button1{
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.button1:hover{
+    background-color: darkgreen;
+}
+
+.jumbotron .btn:active{
+    border: 3px solid rgba(0, 128, 0, 0.068);
+}
+
+h2{
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.nleft{
+    background-image: url(img/elephant-1822636_1280.jpg);
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+}
+.feat{
+    background-color: gray;
+    color: white;
+    border: yellow 3px solid;
+    text-align: center;
+}
+
+.feat span{
+    font-size: 50px;
+}
+
+.feat h3{
+    color: yellow;
+}
+
+footer{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}

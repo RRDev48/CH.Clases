@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Island+Moments&family=Moon+Dance&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Delicious+Handrawn&family=Farsan&family=Lato&family=Open+Sans:wght@300&family=Oswald:wght@300&family=Poppins:wght@300&family=Roboto:wght@100;900&display=swap');
+
+
+
+// font-family: 'Barlow', sans-serif;
+// font-family: 'Delicious Handrawn', cursive;
+// font-family: 'Farsan', cursive;
+// font-family: 'Lato', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Roboto', sans-serif;
+
+
+$font30:'Barlow',
+sans-serif;
+$font31:'Delicious Handrawn',
+cursive;
+
+//fonts
+
+$font1: 'Barlow',
+sans-serif;
+$font2: 'Island Moments',
+cursive;
+$font3: 'Moon Dance',
+cursive;
+$color22: orange;
+$color24: springgreen;
+
+
+h2 {
+	text-align: center;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: $color22;
+	text-shadow: 5px 5px 10px #333;
+	font-family: $font3;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+//sass nos permite la incorporacion sencilla de operaciones matematicas
+//operadores - inicio
+$ancho: 720px;
+$alto: 100px;
+
+$var1: 100%;
+$var2: 50%;
+
+$blue: darkblue;
+$verde: #0f9243;
+$red: darkred;
+$black: black;
+$white: rgb(10, 5, 5);
+
+$xs: 16px;
+$small: 20px;
+$med: 40px;
+$large: 60px;
+$xl: 80px;
+
+// paleta colores
+
+$color1: #ff000f;
+$color2: #ff000f;
+$color3: #ff000f;
+$color4: #ff000f;
+$color5: #fafa0f;
+$color6: #dfa00f;
+
+//dimensiones
+
+$size1: 100%;
+$size1: 50%;
+$size1: 20px;
+$size1: 50px;
+
+//fonts
+
+$font1: cursive;
+$font2: serif;
+$font3: sans-serif;
+$font4: fantasy;
+$font5: 'Oswald',
+sans-serif;
+
+
+.box__uno {
+	background-color: violet;
+	width: $var1 - $var2;
+	/* Ancho de 50%*/
+	height: calc($alto*2);
+
+	/* altura 400px*/
+}
+
+.box__dos {
+	background-color: $verde;
+	height: ($ancho / 2)-250;
+	width: $alto + 50;
+	/*650px*/
+}
+
+
+$size: 150px;
+
+.titulo {
+	font-size: ($size/2)-40;
+	//  math.div($size, 2);
+	color: red;
+	text-align: center;
+	font-family: $font5;
+}
+
+//operadores - fin
+
+//los condicionales Permiten establecer reglas para validar si se aplica o no una acción,
+//cambio o asignación en el atributo de un elemento.
+//Estas condiciones podrán incluir comparadores típicos (==, !=, <, >)
+
+// === igual tener en cuenta el tipo dato 
+// == igual
+// != distinto
+// < menor
+// > mayor
+// <= menor o igual
+// >= mayor o igual
+// condicionales - inicio
+
+p {
+	height: $alto;
+	width: $ancho;
+	background-color: $red;
+	font-size: $large;
+	text-align: center;
+}
+
+
+$animal: caballos;
+
+/* Mi constante */
+p {
+
+	@if $animal==gato {
+		color: orange;
+		background-color: turquoise;
+		border: 2px solid #333;
+	}
+
+	@else if $animal==perro {
+		color: yellow;
+	}
+
+	@else if $animal==caballo {
+		color: green;
+		text-decoration: underline;
+	}
+
+	@else {
+		color: coral;
+		background-color: #333;
+		border: 12px solid turquoise;
+	}
+}
+
+//otro ejemplo de condicional
+
+.cont1 {
+	height: 400px;
+	width: 700px;
+}
+
+$img1: egret;
+$img2: puma;
+$img3: sea-slug;
+$img4: otro;
+
+$animal: $img4;
+
+/* Mi constante */
+.cont1 {
+
+	@if $animal==$img1 {
+		color: orange;
+		background-image: url("img/egret.jpg");
+		background-position: center;
+		background-size: cover;
+	}
+
+	@else if $animal==$img2 {
+		color: red;
+		background-color: yellow;
+		background-image: url("img/puma.jpg");
+		background-position: center;
+		background-size: cover;
+	}
+
+	@else if $animal==sea-slug {
+		color: green;
+		background-image: url("img/sea-slug.jpg");
+		background-position: center;
+		background-size: cover;
+	}
+
+	@else {
+		border: 15px solid coral;
+		background-color: #333;
+	}
+}
+
+
+// condicionales - fin
+
+//Un bucle es una secuencia que repite más de una vez en una porcion de codigo, dada cierta condicion
+//Cuando la misma deja de cumplirse, el bucle finaliza
+
+// bucles -inicio
+
+
+.para {
+	height: 200px;
+	background-color: yellow;
+	border: 2px solid #333;
+}
+
+// .casitodos-3{ 
+
+@for $incremento from 1 through 4 {
+	// $i: 6;
+
+	.todos-#{$incremento} {
+		width: 100px * $incremento;
+		background-color: #0f9243;
+		// font-size: 2em * $i;
+		// font-size: 30px * $i;
+		font-size: 20px * $incremento;
+		border-width: 5px * $incremento;
+		box-shadow: 0 0 5px * $incremento #ff0 inset;
+	}
+
+	// $i: $i - 2
+}
+
+
+
+//otro ejemplo de bucle for
+
+@for $in from 1 through 5 {
+
+	.bucle-#{$in} {
+		width: 400px;
+		height: 200px;
+		background-color: purple;
+		border: 2px solid #333;
+		text-align: center;
+		font-size: 50px;
+	}
+
+}
+
+
+$base-color: #036;
+$base-color: #3ff;
+
+
+@for $in from 2 through 4 {
+	.bucle-#{$in} {
+		background-color: lighten($base-color, $in * 10%);
+		background-color: darken($base-color, $in * 10%);
+	}
+}
+
+
+
+//bucles - fin
+
+
+//each - inicio
+
+.puma-icon,
+.egret-icon,
+.sea-slug-icon {
+	height: 250px;
+	width: 400px;
+	border: 2px solid #333;
+}
+
+
+@each $animal in puma, sea-slug , egret {
+	.#{$animal}-icon {
+		//background-image: url("img/egret.jpg");
+		background-image: url("img/#{$animal}.jpg");
+		background-size: cover;
+		background-position: center;
+		filter: grayscale(100%);
+	}
+}
+
+@each $animal in puma ,sea-slug , egret {
+	.#{$animal}-icon:hover {
+		//background-image: url("img/puma.jpg");
+		filter: grayscale(0%);
+	}
+}
+
+/*animal tendrá los valores de cada uno */
+
+// otro ejemplo each
+
+.cont-blue,
+.cont-yellow,
+.cont-red {
+	height: 150px;
+	width: 300px;
+	background-color: #333;
+	border: 10px solid #0f9243;
+}
+
+@each $colores2 in blue,yellow,red {
+	.cont-#{$colores2} {
+		border-color: $colores2;
+		text-align: center;
+		color: $colores2;
+		font-size: 60px;
+		line-height: 150px;
+	}
+}
+
+// otro ejemplo de uso del @each
+
+$colores1: red,
+blue,
+black,
+orange,
+violet,
+green;
+
+@each $coloridos in $colores1 {
+	.color-#{$coloridos} {
+		border-color: $coloridos;
+		color: $coloridos;
+		background-color: $coloridos;
+		font-size: 60px;
+		text-shadow: 5px 5px 5px #fff;
+		border: 2px solid;
+		height: 200px;
+		width: 600px;
+	}
+}
+
+
+
+//each fin 
+
+
+//Los mapas son variables cuyo valor es una colección de variables.
+//Se definen con un nombre que los identifica. Las claves suelen ser cadenas o números,
+//mientras que los valores pueden ser cualquier tipo de dato. 
+//ejemplo: $map: (key1: value1, key2: value2, key3: value3);
+
+//maps - incio
+
+$redes: (
+	/*Declaramos nuestro mapa*/
+	10px: coral,
+	20px: green,
+	30px: violet,
+	40px: red,
+	50px: orange,
+
+);
+
+/*Creamos el bucle para usar los valores del mapa*/
+@each $red,$font in $redes {
+	.btn--#{$red} {
+		background-color: #333;
+		height: 200px;
+		width: 500px;
+		border: 10px solid $font;
+		text-align: center;
+		font-size: $red;
+		line-height: 200px;
+		color: $font;
+		text-transform: uppercase;
+		text-shadow: 0 0 5px white;
+		font-family: cursive;
+		border-radius: $red;
+	}
+}
+
+//maps -fin
+
+// $mapa1: (
+//     /*Declaramos nuestro mapa*/
+//     cursive: red,
+//     serif: orange,
+//     fantasy: yellow,
+//     monospace: green,
+
+//     );
+
+
+// @each $sizes, $colours in $mapa1 {
+//     .maps-#{$colours} {
+//         background-color: #333;
+//         height: 200px;
+//         width: 500px;
+//         border: 12px solid violet;
+//         text-align: center;
+//         font-size: 30px;
+//         line-height: 200px;
+//         color: $colours;
+//         text-transform: uppercase;
+//         text-shadow: 0 0 5px orange ;
+//         font-family: $sizes;
+//         border-radius: 10px;
+//     }
+// }
+
+//con los extends vamos a agregar los estilos de otra clase
+//extens - inicio
+
+.redsocial {
+	border: 3px solid #f00;
+	background-color: purple;
+	height: 300px;
+	width: 600px;
+	padding: 20px;
+}
+
+.redsocial--nueva {
+	@extend .redsocial;
+	border-width: 3px;
+	color: #fff;
+	font-size: $large;
+
+	span {
+		@extend .redsocial
+	}
+}
+
+//extens - fin
+
+
+//Los mixins Te permiten definir estilos que pueden ser reutilizados en tu proyecto.
+//Una de las mayores diferencias con los Extend, es que los Mixins pueden recibir argumentos,
+//los cuales nos permitirán producir una gran variedad de estilos con unas simples líneas.
+
+//mixins - inicio
+
+.box {
+	background-color: $verde;
+	font-size: $large;
+	color: #fff;
+	text-align: center;
+}
+
+@mixin sizes ($height, $width, $bgcolor, $color) {
+	height: $height;
+	width: $width;
+	background-color: $bgcolor;
+	color: $color;
+}
+
+.box {
+	@include sizes(300px, 400px, blue, pink);
+
+}
+
+.box2 {
+	@include sizes (300px, 200px, red, orange);
+	//background-color: red;
+	// color: white;
+	text-align: right;
+	font-size: $large;
+}
+
+
+//mixins - fin
+
+//whilleee - inicio
+
+.whi {
+	height: 200px;
+	background-color: palegreen;
+	width: 500px;
+	border: 2px solid #ccc;
+
+}
+
+//whillee - fin

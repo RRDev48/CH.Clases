@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    display: grid;
+    background-color: orange;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    grid-template-areas: "img1 img2 img3 img3"
+                        "img1 img4 img5 img6"
+                        "img7 img4 img8 img8";
+    grid-gap: 15px;
+    padding: 20px;
+}
+
+.item{
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+}
+
+.item1{
+    background-image: url(img/couple-8161451_640.jpg);
+     grid-area: img1;
+}
+
+.item2{
+    background-image: url(img/cat-8130334_640.jpg);
+    grid-area: img2;
+}
+
+.item3{
+    background-image: url(img/elephant-1822636_1280.jpg);
+    grid-area: img3;
+}
+
+.item4{
+    background-image: url(img/green-sea-turtle-8199770_640.jpg);
+    grid-area: img4;
+}
+
+.item5{
+    background-image: url(img/lion-3012515_1280.jpg);
+    grid-area: img5;
+}
+
+.item6{
+    background-image: url(img/lions-577104_1280.jpg);
+    grid-area: img6;
+}
+
+.item7{
+    background-image: url(img/mountain-8187621_640.jpg);
+    grid-area: img7;
+}
+
+.item8{
+    background-image: url(img/sunset-1807524_1280.jpg);
+    grid-area: img8;
+}

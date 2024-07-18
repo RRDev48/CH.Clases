@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Fascinate&family=Gantari:wght@100&family=Kdam+Thmor+Pro&family=Macondo&family=Open+Sans:wght@300&family=Oswald&family=Poppins:wght@100&family=Raleway:wght@100&family=Rubik+Moonrocks&display=swap');
+
+$color1: violet;
+$color2: crimson;
+$color3: aqua;
+$font1: cursive;
+$font2: sans-serif;
+$font3: 'Raleway', sans-serif;
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: $color3;
+    color: brown;
+    font-family: $font1;
+}
+
+header{
+    height: 200px;
+    width: 100%;
+    background-color: $color2;
+}
+.clase1{
+    font-family: $font3;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: $font2;
+
+    span{
+        color: chartreuse;
+        // color: $color1;
+    }
+}
+
+
+@import "_menu";
+@import "_galeria";

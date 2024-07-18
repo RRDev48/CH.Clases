@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <action="enviar.php" method="post" enctype="text/plain" netlif>
+        <h2>Contacto</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" required placeholder="Ingresa tu nombre"> <br><br>
+        contraseña<input type="password"> <br>
+        email <input type="number"> <br>
+        fecha <input type="date"> <br>
+        adjuntar archivo <input type="file"> <br>
+
+        telefono <input type="text" required placeholder="Escribe tu telefono"> <br>
+
+        <br>
+        <label for="">Comentarios</label>
+        <br>
+        <textarea name="areadetexto" id="" cols="30" rows="5" placeholder="escribe tu comentario"></textarea> <br>
+        <!--Cols = cantidad de caracteres por filas, rows= cantidad de filas-->
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="borrar"><br>
+        <input type="button" value="Boton"> <br>
+
+        <h2>Selecciona tu genero</h2>
+        <label for="sexo1">genero:</label>
+        hombre <input type="radio" name="sexo" value="Hombre">
+        hombre <input type="radio" name="sexo" value="Mujer">
+        hombre <input type="radio" name="sexo" value="sin especificar"><br>
+
+        <h2>Elige tu estacion preferida</h2>
+        Otoño <input type="checkbox"> <br>
+        Invierno <input type="checkbox"> <br>
+        Primavera <input type="checkbox"> <br>
+        Verano <input type="checkbox"> <br>
+
+        <fieldset>
+            <legend>Leyenda</legend>
+
+            <h5>Elige tu estacion preferida</h5>
+            Otoño <input type="checkbox"> <br>
+            Invierno <input type="checkbox"> <br>
+            Primavera <input type="checkbox"> <br>
+            Verano <input type="checkbox"> <br>
+
+            <label for="nombre">Nombre</label>
+            <input type="nombre" type="text" placeholder="Escribe tu nombre">
+        </fieldset>
+
+    </form>
+    <form action="">
+        <select name="Lenguajes">
+            <option>Html</option>
+            <option>Css</option>
+            <option>JavaScript</option>
+            <option>Jquery</option>
+            <option>php</option>
+            <option>Reacts</option>
+        </select>
+    </form>
+
+    <br>
+
+    <label for="price">Choose a maximum house price</label>
+    <input type="range" name="price" id="price" min="50000" max="500000" step="100" value="250000">
+    <output class="price-output" for="price"></output>
+    <br>
+
+    <br><input type="datetime-local" name="datetime" id="datetime">
+    <br><input type="month" name="month" id="month">
+
+    <input type="time" name="time" id="time">
+    <br><input type="week" name="week" id="week">
+
+    <br><label for="myDate">When are you avaible this summer?</label>
+    <input type="date" name="mydate" min="2023-08-08">
+
+    <br><input type="color" name="color" id="color">
+    <br><input type="search" name="search" id="search">
+    <br><input type="tel" name="tel" id="tel">
+    <br><input type="url" name="url" id="url">
+</body>
+</html>

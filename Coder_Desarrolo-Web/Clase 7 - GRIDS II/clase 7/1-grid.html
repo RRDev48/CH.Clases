@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .contenedor{
+            border: 3px solid #000;
+            display: grid;
+            
+/*            con esta propiedad le vamos a dar un numero de columnas y de dimensiones*/
+            
+            grid-template-columns: 200px 300px 400px;
+             grid-template-columns: 20% 40% 40%; 
+             grid-template-columns: 1fr 1fr 1fr; 
+             grid-template-columns: 1fr 2fr 3fr; 
+             grid-template-columns: 10% 150px 1fr 1fr; 
+            grid-template-columns:  150px auto 400px;
+             grid-template-columns:  150px 1fr 1fr 1fr; 
+            
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-columns: repeat(4, 1fr); 
+/*            grid-template-columns: repeat(numero de veces, valor numerico ofraccionario);*/
+            
+/*            grid-template-rows: 1fr 1fr;*/
+            grid-template-rows: 200px 300px 150px;
+            
+/*            mostrar los diferentes valores*/
+/*            mostrar como desborda del contenedor*/
+            
+/*            separacion de grid*/
+            
+                grid-column-gap: 2%;
+                grid-row-gap: 40px;
+/*                grid-gap: 50px 10px;*/
+        }
+        
+        .item{
+            background-color: tomato;
+            border:1px dashed yellow;
+/*            height: 100px;*/
+        }
+    
+    </style>
+</head>
+<body>
+   <div class="contenedor">
+       <div class="item1 item">1</div>
+       <div class="item2 item">2</div>
+       <div class="item3 item">3</div>
+       <div class="item4 item">4</div>
+       <div class="item5 item">5</div>
+       <div class="item6 item">6</div>
+       <div class="item7 item">7</div>
+       <div class="item8 item">8</div>
+       <div class="item9 item">9</div>
+       <div class="item10 item">10</div>
+       <div class="item11 item">11</div>
+       <div class="item12 item">12</div>
+<!--   <div class="item13 item">13</div>-->
+    </div>
+</body>
+</html>

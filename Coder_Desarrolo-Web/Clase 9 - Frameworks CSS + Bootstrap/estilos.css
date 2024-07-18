@@ -1,0 +1,29 @@
+.container{
+    background-color: red;
+}
+
+.header{
+    background-color: aqua;
+    height: 100px;
+}
+
+main{
+    background-color: red;
+    height: 400px;
+}
+
+aside{
+    background-color: orange;
+}
+
+.article{
+    background-color: blueviolet;
+    height: 250px;
+    border: 2px solid yellow;
+}
+
+footer{
+    background-color: orchid;
+    height: 100px;
+}
+
